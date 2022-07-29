@@ -1,6 +1,6 @@
 <?php
 
-use Botble\GitCommitChecker\Commands\PreCommitHook;
+use Iracode\GitCommitChecker\Commands\PreCommitHook;
 
 return [
     'enabled' => env('GIT_COMMIT_CHECKER_ENABLED', true),

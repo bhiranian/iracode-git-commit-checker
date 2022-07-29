@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\GitCommitChecker\Commands;
+namespace Iracode\GitCommitChecker\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
@@ -35,7 +35,7 @@ class InstallPhpCs extends Command
 
         // Checkout existence of sample phpcs.xml.
         if (!file_exists($phpCs)) {
-            $this->error('The sample phpcs.xml does not exist! Try to reinstall botble/git-commit-checker package!');
+            $this->error('The sample phpcs.xml does not exist! Try to reinstall iracode/git-commit-checker package!');
 
             return 1;
         }

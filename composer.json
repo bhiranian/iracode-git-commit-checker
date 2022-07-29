@@ -1,15 +1,15 @@
 {
-  "name": "botble/git-commit-checker",
+  "name": "iracode/git-commit-checker",
   "description": "Check coding standard & code syntax with Git pre-commit hook.",
   "type": "package",
   "license": "MIT",
   "keywords": [
-    "botble",
-    "botble cms",
-    "botble platform",
-    "botble git commit checker"
+    "iracode",
+    "iracode cms",
+    "iracode platform",
+    "iracode git commit checker"
   ],
-  "homepage": "https://botble.com",
+  "homepage": "https://iracode.com",
   "authors": [
     {
       "name": "Sang Nguyen",
@@ -18,12 +18,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Botble\\GitCommitChecker\\": "src"
+      "Iracode\\GitCommitChecker\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Botble\\GitCommitChecker\\Tests\\": "tests"
+      "Iracode\\GitCommitChecker\\Tests\\": "tests"
     }
   },
   "require": {
@@ -38,7 +38,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Botble\\GitCommitChecker\\Providers\\GitCommitCheckerServiceProvider"
+        "Iracode\\GitCommitChecker\\Providers\\GitCommitCheckerServiceProvider"
       ]
     }
   },

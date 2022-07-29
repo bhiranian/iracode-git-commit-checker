@@ -1,10 +1,10 @@
 <?php
 
-namespace Botble\GitCommitChecker\Providers;
+namespace Iracode\GitCommitChecker\Providers;
 
-use Botble\GitCommitChecker\Commands\InstallHooks;
-use Botble\GitCommitChecker\Commands\InstallPhpCs;
-use Botble\GitCommitChecker\Commands\PreCommitHook;
+use Iracode\GitCommitChecker\Commands\InstallHooks;
+use Iracode\GitCommitChecker\Commands\InstallPhpCs;
+use Iracode\GitCommitChecker\Commands\PreCommitHook;
 use Illuminate\Support\ServiceProvider;
 
 class CommandServiceProvider extends ServiceProvider
